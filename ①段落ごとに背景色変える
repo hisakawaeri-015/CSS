@@ -1,0 +1,14 @@
+/* 奇数の段落 */
+.section:nth-of-type(2n + 1) {
+  background-color: #738cb2;
+}
+
+/* 偶数の段落 */
+.section:nth-of-type(2n) {
+  background-color: #738cb2;
+}
+
+/* 最初の段落 */
+p:nth-of-type(1) {
+  font-weight: bold;
+}

@@ -1,0 +1,83 @@
+ul {
+  list-style: none;
+
+viewport:デバイスの種類における表示領域→これをheadに書くことによって自動で見やすい調節がされる
+
+imgタグ:max-width:100%で親要素より大きくならない
+・細川さん
+最大幅決めといてmargin0auto
+スマホサイズ：bodyのCSSにwidth98%でmargin0autoなら左右に1%空くよ
+max-width:736px　デスクトップで画面いっぱいに広がるのを防ぐ
+
+画面いっぱいの背景：background-size:cover
+
+border-radius　四角を丸めるプロパティ
+
+.photo-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.works-container {
+  width: 33.3%;
+  margin: 10px 0;
+  box-sizing: border-box;
+セクション内に中の要素を収める
+
+}
+
+.header-inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 960px;
+}
+
+box-shadow: 2px 2px 4px gray;
+
+border-spacing: 0;
+一行ごとに一本の線を引く指定
+
+order: 1;
+
+段落の一部のテキスト（まとまり）だけにCSSを適用させる場合はspanタグを使用します。 段落全体にCSSを適用させる場合はpタグを使用します
+
+.center-line-height {
+    height: 50px;
+    line-height: 50px;
+}
+line-heightとheightを同じ値に設定することで、テキストを垂直方向の中央に配置することができます。この方法は、一行のテキストを中央寄せする場合に特に有効です。
+
+a::after {
+  content: "→";
+}
+
+<table>はあんま使わない。すごく書かなあかん大変・・画像で済ませるのもいいけど画像いっぱいのサイトは速度落ちる
+
+z-index：１．１０．１００．１００００を使うことが多い
+高さを設定しないと浮く
+
+SEOの考え方：検索上位
+SEO対策ができることが重要
+
+h1は結構大事で基本1ページに１つ
+
+<form action="url" method="post"></form>
+action：どこに飛ばすか
+ECサイト・確認サイト・入力の確認などのセクションで使う
+method：post：php　暗号化する。サイトURLに日本語とかパスワードとか乗っちゃうとか防ぐ
+
+フッターはコピーライトだけでもつけておこう。ｐでいい
+ないのはありえない
+
+レスポンジブはまあできるよね
+
+案件とるとき「wordpress」は決まったことしかできないよ。プラットフォーム
+lighthingで早めの納品はできるよという案件獲得法
+
+a {
+  transition: opacity .3s;
+→ＣＳＳプロパティが変化する際のアニメーションの速度

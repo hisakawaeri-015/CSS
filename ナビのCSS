@@ -26,3 +26,31 @@
 #nav-pc > a:active {
   color: #04414A;
 }
+--------------------------------------------------------------
+
+/* ナビゲーションメニュー */
+nav .menu {
+  display: flex;
+  padding-left: 0;
+}
+
+nav li {
+  margin: 0 20px;
+  list-style: none;
+}
+
+nav a {
+  font-size: 34px;
+}
+
+h2 {
+  margin: 0;
+  padding: 60px 0 40px;
+  text-align: center;
+  font-size: 34px;
+}
+
+p,
+li {
+  font-size: 18px;
+}

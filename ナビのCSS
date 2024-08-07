@@ -1,0 +1,28 @@
+/* body内>ナビゲーションのレイアウト */
+#nav-pc {
+  text-align: right;
+  font-size: 14px;
+  padding-top: 40px;
+}
+
+/* ナビゲーションのリンクの装飾設定 */
+#nav-pc > a {
+  text-decoration: none;
+  /* 下線を表示しない */
+  margin-left: 20px;
+  /* ↑各aタグ間の幅を20px空けるからleftになる */
+}
+#nav-pc > a:link {
+  color: #04414A;
+}
+#nav-pc > a:visited {
+  color: #04414A;
+}
+#nav-pc > a:hover {
+  color: #04414A;
+  text-decoration: underline;
+  /* マウスカーソル重なった時だけ下線を表示する */
+}
+#nav-pc > a:active {
+  color: #04414A;
+}

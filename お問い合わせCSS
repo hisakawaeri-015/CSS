@@ -1,0 +1,67 @@
+お問い合わせCSSモデルデザイン
+
+/* お問い合わせ */
+    #contact {
+        margin: 80px auto 80px auto;
+    }
+
+    /* 外枠 */
+    #contact > form > div {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-bottom: 30px;
+    }
+
+    /* 左列　見出し */
+    .contact-heading {
+        width: 240px;
+        align-self: center;
+    }
+    /* 見出しのラベル */
+    .contact-label {
+        font-weight: bold;
+    }
+    /* 必須 */
+    .contact-span {
+        color: #ce2222;
+        margin: 0 0 0 20px;
+        font-weight: bold;
+    }
+    /* テキストボックス */
+    .contact-textbox {
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-bottom-width: 1px;
+        border-bottom-color: #707070;
+        border-style: solid;
+        background-color: #fafafa;
+        height: 56px;
+        width: 400px;
+    }
+
+    /* お問い合わせ内容のテキストエリア */
+    .contact-textarea {
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-bottom-width: 1px;
+        border-bottom-color: #707070;
+        background-color: #fafafa;
+        width: 400px;
+        height: 200px;
+    }
+
+    /* 個人情報の取り扱い */
+    details {
+        width: 700px;
+    }
+    details > div {
+        background-color: #fafafa;
+        padding: 20px;
+    }
+
+    details > div > span {
+        font-weight: bold;
+    }

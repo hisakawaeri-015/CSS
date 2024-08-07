@@ -1,0 +1,58 @@
+
+/* PC・スマホ共通スタイル */
+
+@charset "UTF-8";
+
+html {
+  /*16px→10pxにする標準サイズ*/
+  font-size: 62.5%; 
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* サイズ、768pxから768pxまで=768px固定 */
+body {  
+  max-width: 1080px;
+　max-width: 768px;
+  min-width: 768px;
+  padding: 0px;
+  margin: 0 auto;
+  letter-spacing: .05em;
+  font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", "Meiryo", "Arial", "sans-serif";
+　font-family: "游明朝", "YuMincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+}
+}
+
+/* モバイルファースト */
+
+
+/*====================
+スマートフォン用のスタイル
+=====================*/
+@media screen and (max-width: 767px) {
+    body {
+        min-width: 375px;
+        margin: 0;
+    }
+
+    /* PC用ナビゲーション非表示 */
+    #nav-pc {
+        display: none;
+    }
+
+    /* ハンバーガーメニュー */
+    #menu-sp {
+        float: right;
+        padding: 0;
+    }
+
+
+p {
+  margin: 0;
+}

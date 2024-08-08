@@ -1,4 +1,8 @@
-ul {
+/* カーソルを置いたときに薄暗くなる */
+.works-item:hover {
+  opacity: .9;
+
+}ul {
   list-style: none;
 
 viewport:デバイスの種類における表示領域→これをheadに書くことによって自動で見やすい調節がされる

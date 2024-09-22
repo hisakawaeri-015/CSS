@@ -1,5 +1,15 @@
-
-/* PC・スマホ共通スタイル */
+/* PC・スマホ共通のスタイル */
+/* html body a img li などのスタイルを定義 */
+/* h1をsite-title h2をsec-title h3をitem-titleと定義し最初にCSS書く */
+/*
+中身のコンテンツ幅を指定するための共通クラス
+.wrapper {
+  max-width: 1000px;
+  padding: 30px 16px;
+  margin: 0 auto;
+  text-align: center;
+}
+*/
 
 @charset "UTF-8";
 
@@ -12,26 +22,20 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  max-width: 1360px;
+  padding: 0px 40px;
+  margin: 0 auto;
+  letter-spacing: .05em;
+  font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+  text-align: center;
+}
+
 img {
   max-width: 100%;
 }
 
-/* サイズ、768pxから768pxまで=768px固定 */
-body {  
-  max-width: 1080px;
-　max-width: 768px;
-  min-width: 768px;
-  padding: 0px;
-  margin: 0 auto;
-  letter-spacing: .05em;
-  font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", "Meiryo", "Arial", "sans-serif";
-　font-family: "游明朝", "YuMincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
-}
-}
-
 /* モバイルファースト */
-
-
 /*====================
 スマートフォン用のスタイル
 =====================*/

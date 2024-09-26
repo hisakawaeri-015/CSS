@@ -58,3 +58,11 @@ method：post：php　暗号化する。サイトURLに日本語とかパスワ�
 
 案件とるとき「wordpress」は決まったことしかできないよ。プラットフォーム
 lighthingで早めの納品はできるよという案件獲得法
+
+/* CSSグリッドレイアウトを使って、4つの等幅の列を作り、
+各列の間に35ピクセルの余白を設定します。 */
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 35px;
+}

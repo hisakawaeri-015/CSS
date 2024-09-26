@@ -2,34 +2,12 @@
 .works-item:hover {
   opacity: .9;
 
-}ul {
-  list-style: none;
-
-viewport:デバイスの種類における表示領域→これをheadに書くことによって自動で見やすい調節がされる
-
 imgタグ:max-width:100%で親要素より大きくならない
-・細川さん
 最大幅決めといてmargin0auto
 スマホサイズ：bodyのCSSにwidth98%でmargin0autoなら左右に1%空くよ
 max-width:736px　デスクトップで画面いっぱいに広がるのを防ぐ
 
 画面いっぱいの背景：background-size:cover
-
-border-radius　四角を丸めるプロパティ
-
-.photo-container {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.works-container {
-  width: 33.3%;
-  margin: 10px 0;
-  box-sizing: border-box;
-セクション内に中の要素を収める
-
-}
 
 .header-inner {
   display: flex;
@@ -47,7 +25,8 @@ border-spacing: 0;
 
 order: 1;
 
-段落の一部のテキスト（まとまり）だけにCSSを適用させる場合はspanタグを使用します。 段落全体にCSSを適用させる場合はpタグを使用します
+段落の一部のテキスト（まとまり）だけにCSSを適用させる場合はspanタグ
+段落全体にCSSを適用させる場合はpタグを使用します
 
 .center-line-height {
     height: 50px;
@@ -58,8 +37,6 @@ line-heightとheightを同じ値に設定することで、テキストを垂直
 a::after {
   content: "→";
 }
-
-<table>はあんま使わない。すごく書かなあかん大変・・画像で済ませるのもいいけど画像いっぱいのサイトは速度落ちる
 
 z-index：１．１０．１００．１００００を使うことが多い
 高さを設定しないと浮く
@@ -81,7 +58,3 @@ method：post：php　暗号化する。サイトURLに日本語とかパスワ�
 
 案件とるとき「wordpress」は決まったことしかできないよ。プラットフォーム
 lighthingで早めの納品はできるよという案件獲得法
-
-a {
-  transition: opacity .3s;
-→ＣＳＳプロパティが変化する際のアニメーションの速度

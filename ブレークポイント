@@ -1,0 +1,14 @@
+375px~767px以下→スマホ
+768px→ipadの画面
+768px以上→PC(960maxが主流)
+1080px→大画面ディスプレイ
+
+/* 画面幅が768px以上のとき */
+@media screen and (min-width: 768px) {
+  /* PC用のスタイルを指定する */
+}
+
+/* 画面幅が767px以下のとき */
+@media screen and (max-width: 767px) {
+  /* スマートフォン用のスタイルを指定する */
+}

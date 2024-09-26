@@ -13,6 +13,9 @@
 
 @charset "UTF-8";
 
+/*
+GENERAL STYLING(全体のスタイリング)
+================================================ */
 html {
   /*16px→10pxにする標準サイズ*/
   font-size: 62.5%; 
@@ -22,41 +25,57 @@ html {
   box-sizing: border-box;
 }
 
+/*
+フッターを画面下に配置するために、
+「position: relative;」を設定
+「min-height」で最小の高さを画面の高さにあわせる
+*/
 body {
-  max-width: 1360px;
-  padding: 0px 40px;
-  margin: 0 auto;
+  /* 画面全体が絶対位置 */
+  position: relative;
+  min-height: 100vh;
   letter-spacing: .05em;
   font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
-  text-align: center;
+}
+
+
+/*
+COMMON(共通の)
+================================================ */
+
+/* transition: 要素の状態変化（hoverやfocusなどのインタラクション）をスムーズにするため
+all: すべてのプロパティ（width、color、background-color など）が対象になります。 */
+a {
+  color: #333;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+/* 透明度を70%に設定 */
+a:hover {
+  opacity: 0.7;
 }
 
 img {
   max-width: 100%;
 }
 
-/* モバイルファースト */
-/*====================
-スマートフォン用のスタイル
-=====================*/
-@media screen and (max-width: 767px) {
-    body {
-        min-width: 375px;
-        margin: 0;
-    }
+li {
+  list-style: none;
+}
 
-    /* PC用ナビゲーション非表示 */
-    #nav-pc {
-        display: none;
-    }
+.fadein{
+  opacity: 0;
+}
 
-    /* ハンバーガーメニュー */
-    #menu-sp {
-        float: right;
-        padding: 0;
-    }
-
-
-p {
+/*
+LAYOUT
+================================================ */
+.wrapper {
+  width: 100%;
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0px 40px;
+}
   margin: 0;
 }
